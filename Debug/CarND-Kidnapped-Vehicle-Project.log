@@ -1,0 +1,27 @@
+﻿  particle_filter.cpp
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.15.26726\include\xutility(2414): warning C4244: 'argument': conversion from 'double' to 'const _Ty', possible loss of data
+          with
+          [
+              _Ty=float
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.15.26726\include\xutility(2434): note: see reference to function template instantiation '_OutIt std::_Copy_unchecked1<_InIt,_OutIt>(_InIt,_InIt,_OutIt,std::_General_ptr_iterator_tag)' being compiled
+          with
+          [
+              _OutIt=std::ostream_iterator<float,char,std::char_traits<char>>,
+              _InIt=double *
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.15.26726\include\xutility(2445): note: see reference to function template instantiation '_OutIt std::_Copy_unchecked<double*,_Iter>(_InIt,_InIt,_OutIt)' being compiled
+          with
+          [
+              _OutIt=std::ostream_iterator<float,char,std::char_traits<char>>,
+              _Iter=std::ostream_iterator<float,char,std::char_traits<char>>,
+              _InIt=double *
+          ]
+  c:\users\junde li\source\repos\carnd-kidnapped-vehicle-project\src\particle_filter.cpp(100): note: see reference to function template instantiation '_OutIt std::copy<std::_Vector_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>,std::ostream_iterator<float,char,std::char_traits<char>>>(_InIt,_InIt,_OutIt)' being compiled
+          with
+          [
+              _OutIt=std::ostream_iterator<float,char,std::char_traits<char>>,
+              _Ty=double,
+              _InIt=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<double>>>
+          ]
+c:\users\junde li\source\repos\carnd-kidnapped-vehicle-project\src\particle_filter.cpp(85): error C4716: 'ParticleFilter::SetAssociations': must return a value
